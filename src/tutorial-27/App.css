@@ -1,0 +1,51 @@
+#root {
+    background-color: rgb(245, 245, 245);
+}
+
+.content {
+    width: 720px;
+    display: block;
+    margin: 0 auto;
+}
+
+.block {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 30px 20px 30px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.reviews h1 {
+    font-weight: 400;
+    color: grey;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.name {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.email {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    color: #fff;
+    background-color: rgba(42, 104, 238, 0.948);
+    border: none;
+    border-radius: 4px;
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+    font-size: 20px
+}
